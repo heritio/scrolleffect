@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 500vh;
 }
 
 .App-logo {
@@ -15,13 +16,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 20vh;
+  width: 100%;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
 }
 
 .App-link {
@@ -35,4 +34,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scrollprogression {
+  background-color: transparent;
+  height: 15px;
+  top: 20vh;
+  position: fixed;
+  width: 100%;
+}
+.innerscrollprogression {
+  background-color: rgb(0, 119, 255);
+  height: 10px;
+  animation: all ease-in;
 }
